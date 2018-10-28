@@ -1,0 +1,74 @@
+@font-face{
+
+  font-family: "Friday";
+  src: url('/font/Friday13v12.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Friday";
+}
+
+/* Page 1 */
+
+.page1{
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/bg1.jpg");
+  background-size: cover;
+  background-position-x:30px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  font-size: 7em;
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #ee2e24;
+  cursor: default;
+  transition: 0.5s ;
+}
+
+/* Title */
+
+.title:hover{
+  color: white;
+}
+
+.thirteen{
+  color: #ee2e24;
+}
+
+sup{
+  font-size: 0.5em;
+}
+
+/* Scroll */
+
+.contain-scroll{
+  width: 100px;
+  height: 80px;
+  background: url("/img/scrolldown.gif");
+  background-size: cover;
+}
+
