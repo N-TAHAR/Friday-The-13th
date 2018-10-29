@@ -7,6 +7,15 @@
   
 }
 
+@font-face{
+
+  font-family: "FridaySH";
+  src: url('/font/Friday13SH.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
 *{
   box-sizing: border-box;
 }
@@ -72,3 +81,25 @@ sup{
   background-size: cover;
 }
 
+.page2{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.rules{
+  font-family: "FridaySH";
+  color: white;
+  font-size: 6em;
+  opacity: 0;
+  transition: 5s;
+}
+
+.survive{
+  color: #ee2e24;
+}
