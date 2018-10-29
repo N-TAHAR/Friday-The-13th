@@ -81,6 +81,16 @@ sup{
   background-size: cover;
 }
 
+/* Black Page */
+
+.blackpage{
+  width: 100%;
+  height: 60%;
+  background-color: black; 
+}
+
+/* Page 2 */
+
 .page2{
   width: 100%;
   height: 100%;
@@ -93,13 +103,93 @@ sup{
 }
 
 .rules{
-  font-family: "FridaySH";
+  font-family: "Friday";
   color: white;
   font-size: 6em;
   opacity: 0;
-  transition: 5s;
+  transition: 3s;
 }
 
 .survive{
+  font-family: "FridaySH";
   color: #ee2e24;
+}
+
+/* Page 3 */
+
+.page3{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.characters{
+  color: #ee2e24;
+  font-size: 5em;
+  opacity: 0;
+  transition: 1s;
+}
+
+.monitors{
+  width: 100%;
+  height: 50%;
+  background-image: url("/img/monitors.jpg");
+  background-size: cover;
+  opacity: 0;
+  transition: 1s;
+}
+
+/* Page 4 */
+
+.page4{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice{
+  color: white;
+  font-size: 6em;
+}
+
+/* Page 5 */
+
+.page5{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/bg2.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.catch{
+  color: black;
+  font-size: 6em;
+}
+
+.jason{
+  color: #ee2e24;
+  font-size: 2em;
+  font-family: "FridaySH";
+  opacity: 0;
+  transition: 5s;
+
+}
+
+.blood{
+  background-image: url("/img/blood.png");
+  width: 100%;
+  height: 30%;
 }
