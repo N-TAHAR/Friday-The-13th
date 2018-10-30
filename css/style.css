@@ -158,6 +158,8 @@ sup{
 .advice{
   color: white;
   font-size: 6em;
+  opacity: 0;
+  transition: 4s;
 }
 
 /* Page 5 */
@@ -192,4 +194,51 @@ sup{
   background-image: url("/img/blood.png");
   width: 100%;
   height: 30%;
+}
+
+/* social media */
+
+.network{
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.reseau{
+  display:flex;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.linkedin{
+  background-image: url("/img/LinkedIn.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.github{
+  background-image: url("/img/git.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: red; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: red; 
 }

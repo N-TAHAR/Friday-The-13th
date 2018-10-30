@@ -4,6 +4,8 @@ const rules = document.querySelectorAll(".rules");
 const jason = document.querySelector(".jason");
 const characters = document.querySelector(".characters");
 const monitors = document.querySelector(".monitors");
+const advice = document.querySelector(".advice");
+
 
 // transition opacity
 window.addEventListener("scroll", function() {
@@ -23,6 +25,13 @@ window.addEventListener("scroll", function() {
   }else{
     characters.style.opacity = "0";
     monitors.style.opacity = "0";
+  }
+
+  // Page 4
+  if ( window.scrollY >= 3350){
+    advice.style.opacity = "1";
+  }else{
+    advice.style.opacity = "0";
   }
   
   // Jason
